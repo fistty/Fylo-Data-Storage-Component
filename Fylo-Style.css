@@ -85,7 +85,7 @@ main {
   min-width: 20.375rem;
   background-color: var(--Dark-Blue);
   overflow: hidden;
-  animation: IntroLogo ease-out forwards 0.5s;
+  animation: ntroLogo ease-out forwards 0.5s;
 }
 
 @keyframes IntroLogo {
@@ -142,7 +142,7 @@ main {
   min-width: 20.375rem;
   background-color: var(--Dark-Blue);
   position: relative;
-  animation: IntroStorage ease-out forwards 0.5s;
+  animation: ntroStorage ease-out forwards 0.5s;
 }
 
 @keyframes IntroStorage {
@@ -352,7 +352,7 @@ h2 > span {
     animation: IntroStorageBig ease-out forwards 0.5s;
   }
 
-  @keyframes IntroLogoBig {
+  @keyframes ntroLogoBig {
     0% {
       transform: translateY(-30px);
     }
@@ -362,7 +362,7 @@ h2 > span {
     }
   }
 
-  @keyframes IntroStorageBig {
+  @keyframes ntroStorageBig {
     0% {
       transform: translateY(30px);
     }
