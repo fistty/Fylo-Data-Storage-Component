@@ -192,7 +192,7 @@ h2 > span {
   padding-right: 2px;
   position: relative;
   z-index: 999;
-  animation: barFilter ease-out 2s infinite;
+  animation: barFilterr ease-out 2s infinite;
 }
 
 @keyframes barFilter {
@@ -200,8 +200,16 @@ h2 > span {
     filter: brightness(1) saturate(100%);
   }
 
-  50% {
+  25% {
     filter: brightness(0.75) saturate(170%);
+  }
+
+  50% {
+    filter: brightness(0.8) saturate(190%);
+  }
+
+  75% {
+    filter: brightness(0.9) saturate(200%);
   }
 
   100% {
