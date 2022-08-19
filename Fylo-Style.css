@@ -85,7 +85,7 @@ main {
   min-width: 20.375rem;
   background-color: var(--Dark-Blue);
   overflow: hidden;
-  animation: ntroLogo ease-out forwards 0.5s;
+  animation: IntroLogo ease-out forwards 0.5s;
 }
 
 @keyframes IntroLogo {
@@ -142,7 +142,7 @@ main {
   min-width: 20.375rem;
   background-color: var(--Dark-Blue);
   position: relative;
-  animation: ntroStorage ease-out forwards 0.5s;
+  animation: IntroStorage ease-out forwards 0.5s;
 }
 
 @keyframes IntroStorage {
@@ -192,7 +192,7 @@ h2 > span {
   padding-right: 2px;
   position: relative;
   z-index: 999;
-  animation: barFilterr ease-out 2s infinite;
+  animation: barFilter ease-out 2s infinite;
 }
 
 @keyframes barFilter {
@@ -360,7 +360,7 @@ h2 > span {
     animation: IntroStorageBig ease-out forwards 0.5s;
   }
 
-  @keyframes ntroLogoBig {
+  @keyframes IntroLogoBig {
     0% {
       transform: translateY(-30px);
     }
@@ -370,7 +370,7 @@ h2 > span {
     }
   }
 
-  @keyframes ntroStorageBig {
+  @keyframes IntroStorageBig {
     0% {
       transform: translateY(30px);
     }
