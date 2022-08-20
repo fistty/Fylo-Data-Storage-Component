@@ -278,6 +278,21 @@ h2 > span {
   }
 }
 
+@media screen and (max-width: 336px) {
+  body {
+    padding-left: unset;
+    padding-right: unset;
+  }
+
+  .logo-section {
+    min-width: unset;
+  }
+
+  .storage-section {
+    min-width: unset;
+  }
+}
+
 @media screen and (min-width: 1000px) {
   body {
     background-image: unset;
